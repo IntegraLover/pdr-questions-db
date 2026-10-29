@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PdrExamApp/1.0.0": {
+        "runtime": {
+          "PdrExamApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PdrExamApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
