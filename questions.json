@@ -4,7 +4,7 @@
     "title": "Що вимагає від водія даний дорожній знак?",
     "category": "Дорожні знаки",
     "explanation": "Знак 2.1 'Дати дорогу' зобов'язує водія дати дорогу транспортним засобам, що рухаються по пересечуваній дорозі.",
-    "imagePath": "https://raw.githubusercontent.com/yuriy-v/pdr-images/main/sign_2_1.png",
+    "imagePath": "https://raw.githubusercontent.com/IntegraLover/pdr-questions-db/main/images/sign_2_1.png",
     "options": [
       { "id": 1, "text": "Обов'язкову зупинку перед перехрестям", "isCorrect": false },
       { "id": 2, "text": "Дати дорогу транспортним засобам, що рухаються по пересечуваній дорозі", "isCorrect": true },
@@ -16,7 +16,7 @@
     "title": "Що вимагає даний дорожній знак (STOP)?",
     "category": "Дорожні знаки",
     "explanation": "Знак 2.2 'Проїзд без зупинки заборонено' забороняє проїзд без зупинки перед стоп-лінією або краєм пересечуваної проїзної частини.",
-    "imagePath": "https://raw.githubusercontent.com/yuriy-v/pdr-images/main/sign_2_2.png",
+    "imagePath": "https://raw.githubusercontent.com/IntegraLover/pdr-questions-db/main/images/sign_2_2.png",
     "options": [
       { "id": 1, "text": "Дати дорогу без обов'язкової зупинки", "isCorrect": false },
       { "id": 2, "text": "Обов'язкову зупинку перед стоп-лінією або краєм пересечуваної проїзної частини", "isCorrect": true },
@@ -28,7 +28,7 @@
     "title": "Що означає цей дорожній знак?",
     "category": "Дорожні знаки",
     "explanation": "Знак 2.3 'Головна дорога' надає право першочергового проїзду нерегульованих перехресть.",
-    "imagePath": "https://raw.githubusercontent.com/yuriy-v/pdr-images/main/sign_2_3.png",
+    "imagePath": "https://raw.githubusercontent.com/IntegraLover/pdr-questions-db/main/images/sign_2_3.png",
     "options": [
       { "id": 1, "text": "Початок населеного пункту", "isCorrect": false },
       { "id": 2, "text": "Надає право першочергового проїзду нерегульованих перехресть", "isCorrect": true },
@@ -40,7 +40,7 @@
     "title": "Чи дозволено в'їзд у зону дії цього знака?",
     "category": "Дорожні знаки",
     "explanation": "Знак 3.21 'В'їзд заборонено' забороняє в'їзд усіх транспортних засобів у даному напрямку.",
-    "imagePath": "https://raw.githubusercontent.com/yuriy-v/pdr-images/main/sign_3_21.png",
+    "imagePath": "https://raw.githubusercontent.com/IntegraLover/pdr-questions-db/main/images/sign_3_21.png",
     "options": [
       { "id": 1, "text": "Заборонено в'їзд усіх транспортних засобів", "isCorrect": true },
       { "id": 2, "text": "Дозволено тільки легковим автомобілям", "isCorrect": false },
@@ -52,11 +52,47 @@
     "title": "У яких напрямках дозволяє рух цей дорожній знак?",
     "category": "Наказові знаки",
     "explanation": "Знак 4.1 'Рух прямо' дозволяє рух лише прямо.",
-    "imagePath": "https://raw.githubusercontent.com/yuriy-v/pdr-images/main/sign_4_1.png",
+    "imagePath": "https://raw.githubusercontent.com/IntegraLover/pdr-questions-db/main/images/sign_4_1.png",
     "options": [
       { "id": 1, "text": "Тільки прямо", "isCorrect": true },
       { "id": 2, "text": "Прямо та праворуч", "isCorrect": false },
       { "id": 3, "text": "У будь-якому напрямку", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Що означає жовтий миготливий сигнал світлофора?",
+    "category": "Сигнали світлофора",
+    "explanation": "Жовтий миготливий сигнал дозволяє рух і інформує про наявність небезпечного нерегульованого перехрестя або пішохідного переходу.",
+    "imagePath": null,
+    "options": [
+      { "id": 1, "text": "Рух заборонено, очікуйте зелений сигнал", "isCorrect": false },
+      { "id": 2, "text": "Перехрестя є нерегульованим, дозволяє рух з дотриманням правил проїзду нерегульованих перехресть", "isCorrect": true },
+      { "id": 3, "text": "Вказує на зміну напрямку головної дороги", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Яка максимальна дозволена швидкість руху легкових автомобілів у населених пунктах України?",
+    "category": "Швидкість руху",
+    "explanation": "Згідно з п. 12.4 ПДР України, у населених пунктах рух транспортних засобів дозволяється зі швидкістю не більше 50 км/год.",
+    "imagePath": null,
+    "options": [
+      { "id": 1, "text": "60 км/год", "isCorrect": false },
+      { "id": 2, "text": "50 км/год", "isCorrect": true },
+      { "id": 3, "text": "70 км/год", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Хто має перевагу в русі на нерегульованому перехресті рівнозначних доріг?",
+    "category": "Проїзд перехресть",
+    "explanation": "На нерегульованому перехресті рівнозначних доріг водій зобов'язаний дати дорогу транспортним засобам, що наближаються праворуч.",
+    "imagePath": null,
+    "options": [
+      { "id": 1, "text": "Водій, що наближається праворуч", "isCorrect": true },
+      { "id": 2, "text": "Водій, що їде прямо", "isCorrect": false },
+      { "id": 3, "text": "Водій вантажного автомобіля", "isCorrect": false }
     ]
   }
 ]
